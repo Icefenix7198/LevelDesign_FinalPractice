@@ -2726,3 +2726,52 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.07-20.14.28:065][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6547.312500
 [2025.06.07-20.14.29:065][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.06.07-20.14.29:065][617]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6547.979004, Update Interval: 302.336487
+[2025.06.07-20.20.09:624][183]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6888.873047
+[2025.06.07-20.20.10:624][186]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.20.10:624][186]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6889.540527, Update Interval: 341.698059
+[2025.06.07-20.24.30:303][965]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 83e...29e
+[2025.06.07-20.24.30:303][965]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.93 RefreshExpires: 1.553e+07
+[2025.06.07-20.24.31:302][968]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 83e...29e Access[Expires: 2025.06.07-22.24.37 Remaining: 7200.42] Refresh[Expires: 2025-12-04T14:47:41.582Z Remaining: 15531784.58] State: Valid
+[2025.06.07-20.25.45:304][190]LogDerivedDataCache: C:/Users/Mi Pc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.06.07-20.26.38:305][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7277.551270
+[2025.06.07-20.26.39:304][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.26.39:304][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7278.218750, Update Interval: 338.984344
+[2025.06.07-20.32.59:311][492]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7658.562500
+[2025.06.07-20.33.00:309][495]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.33.00:309][495]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7659.227051, Update Interval: 358.439880
+[2025.06.07-20.39.37:651][688]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8056.902832
+[2025.06.07-20.39.38:650][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.39.38:650][690]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8057.569824, Update Interval: 328.726471
+[2025.06.07-20.45.56:323][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8435.568359
+[2025.06.07-20.45.57:323][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.45.57:323][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8436.235352, Update Interval: 330.486145
+[2025.06.07-20.52.03:998][927]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8803.229492
+[2025.06.07-20.52.04:997][930]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.52.04:997][930]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8803.895508, Update Interval: 300.611603
+[2025.06.07-20.57.55:336][980]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9154.570312
+[2025.06.07-20.57.56:336][983]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-20.57.56:336][983]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9155.236328, Update Interval: 326.620697
+[2025.06.07-21.03.58:675][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9517.882812
+[2025.06.07-21.03.59:675][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-21.03.59:675][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9518.549805, Update Interval: 330.059509
+[2025.06.07-21.10.04:679][169]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9883.858398
+[2025.06.07-21.10.05:679][171]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-21.10.05:679][172]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9884.525391, Update Interval: 345.298004
+[2025.06.07-21.15.57:084][411]Cmd: ACTOR SELECT OFCLASS CLASS=/Script/Engine.StaticMeshActor
+[2025.06.07-21.16.00:261][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.06.07-21.16.00:347][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.07-21.16.00:377][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Piso1" FILE="C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.07-21.16.00:412][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.06.07-21.16.00:433][711]LogSavePackage: Moving output files for package: /Game/Levels/Piso1
+[2025.06.07-21.16.00:434][711]LogSavePackage: Moving 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Saved/Piso187D30A3F4EC25619BC3CF99EA24A420B.tmp' to 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso1.umap'
+[2025.06.07-21.16.00:443][711]LogFileHelpers: Saving map 'Piso1' took 0.067
+[2025.06.07-21.16.00:451][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.466 ms (total: 2.62 sec)
+[2025.06.07-21.16.00:479][711]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.07-21.16.00:479][711]LogContentValidation: Enabled validators:
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.07-21.16.00:479][711]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.07-21.16.00:479][711]AssetCheck: /Game/Levels/Piso1 Validating asset
