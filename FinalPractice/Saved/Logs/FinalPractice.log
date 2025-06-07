@@ -2580,3 +2580,51 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.07-19.01.11:850][930]SourceControl:  create mode 100644 FinalPractice/Content/Levels/_GENERATED/MiPc/Lever.uasset
 [2025.06.07-19.01.11:850][930]SourceControl:  create mode 100644 FinalPractice/Content/Levels/_GENERATED/MiPc/Move_Library.uasset
 [2025.06.07-19.01.11:862][930]SourceControl: Commited [main fd0361c] Lights and BP.
+[2025.06.07-19.02.19:993][419]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01.Box_D5BB5F01
+[2025.06.07-19.02.19:994][419]LogStaticMesh: Display: Building static mesh Box_D5BB5F01 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.07-19.02.19:994][419]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01.Box_D5BB5F01 as actor: StaticMeshActor /Game/Levels/Piso1.Piso1:PersistentLevel.StaticMeshActor_14
+[2025.06.07-19.02.19:995][419]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01.Box_D5BB5F01
+[2025.06.07-19.02.27:592][183]Cmd: TRANSACTION UNDO
+[2025.06.07-19.02.27:593][183]LogEditorTransaction: Undo Transform
+[2025.06.07-19.02.33:646][798]LogStaticMesh: Display: Building static mesh Box_D5BB5F01 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.07-19.02.33:646][798]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01.Box_D5BB5F01
+[2025.06.07-19.03.15:130][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.07-19.03.15:156][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Piso1" FILE="C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.07-19.03.15:193][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.06.07-19.03.15:216][228]LogSavePackage: Moving output files for package: /Game/Levels/Piso1
+[2025.06.07-19.03.15:216][228]LogSavePackage: Moving 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Saved/Piso142C3DE9F4F106550EF2A9AAF8095FA0D.tmp' to 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso1.umap'
+[2025.06.07-19.03.15:223][228]LogFileHelpers: Saving map 'Piso1' took 0.068
+[2025.06.07-19.03.15:232][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.061 ms (total: 2.21 sec)
+[2025.06.07-19.03.15:258][228]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.07-19.03.15:258][228]LogContentValidation: Enabled validators:
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.07-19.03.15:258][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.07-19.03.15:258][228]AssetCheck: /Game/Levels/Piso1 Validating asset
+[2025.06.07-19.03.15:600][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.07-19.03.15:673][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.07-19.03.15:701][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/MiPc/Box_D5BB5F01] ([1] browsable assets)...
+[2025.06.07-19.03.15:732][262]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01.Box_D5BB5F01]
+[2025.06.07-19.03.15:732][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/MiPc/Box_D5BB5F01]
+[2025.06.07-19.03.15:734][262]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01
+[2025.06.07-19.03.15:734][262]LogSavePackage: Moving 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Saved/Box_D5BB5F01FE5133D545FAA58CA15E37A9619F701A.tmp' to 'C:/Users/Mi Pc/Documents/GitHub/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/MiPc/Box_D5BB5F01.uasset'
+[2025.06.07-19.03.15:857][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 183.471 ms (total: 2.40 sec)
+[2025.06.07-19.03.15:908][262]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.07-19.03.15:908][262]LogContentValidation: Enabled validators:
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.07-19.03.15:908][262]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.07-19.03.15:908][262]AssetCheck: /Game/Levels/_GENERATED/MiPc/Box_D5BB5F01 Validating asset
+[2025.06.07-19.06.26:651][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2465.918945
+[2025.06.07-19.06.26:779][ 33]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-19.06.26:779][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2466.038574, Update Interval: 343.853271
+[2025.06.07-19.10.01:761][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.06.07-19.12.48:790][153]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2848.045410
+[2025.06.07-19.12.49:789][156]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.07-19.12.49:789][156]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2848.712402, Update Interval: 326.120789
