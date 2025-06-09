@@ -2613,3 +2613,843 @@ FPackageName: Skipped package /Game/FirstPerson/Maps/_GENERATED/Usuario/Coso has
 [2025.06.09-11.06.46:989][786]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.06.09-11.06.46:989][786]AssetCheck: /Game/Levels/Piso2 Validating asset
 [2025.06.09-11.06.46:989][786]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_0EEE40B4 Validating asset
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: ================================================
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Total job queries 368, among them cache hits 37 (10.05%), DDC hits 319 (86.68%), Duplicates 4 (1.09%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Tracking 327 distinct input hashes that result in 204 distinct outputs (62.39%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: RAM used: 129.81 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Shaders Compiled: 8
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Average time worker was idle: 399.57 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Job execution time: average 2.34 s, max 2.86 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 2.93
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Shader code size: average 10.2 KiB, min 4.297 KiB, max 30.242 KiB
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.84 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Average processing rate: 1.37 jobs/sec
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Total thread time: 7.176 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Total thread preprocess time: 7.995 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Percentage time preprocessing: 111.42%
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.86 sec, max 1.86 sec, min 1.86 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.78 sec, max 0.79 sec, min 0.77 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.75 sec, max 0.81 sec, min 0.69 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.66 sec, max 0.68 sec, min 0.64 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 25.85% of total time (compiled    1 times, average 1.86 sec, max 1.86 sec, min 1.86 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                                 FLumenCardPS - 21.67% of total time (compiled    2 times, average 0.78 sec, max 0.79 sec, min 0.77 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.92% of total time (compiled    2 times, average 0.75 sec, max 0.81 sec, min 0.69 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.29% of total time (compiled    2 times, average 0.66 sec, max 0.68 sec, min 0.64 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.26% of total time (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: === Material stats ===
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Materials Translated:    193
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Material Total Translate Time: 0.36 s
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Material Translation Only: 0.10 s (28%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: Material Cache Hits: 50 (26%)
+[2025.06.09-11.07.27:186][  8]LogShaderCompilers: Display: ================================================
+[2025.06.09-11.09.30:538][288]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1765.529907
+[2025.06.09-11.09.30:698][300]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.09-11.09.30:698][300]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1765.676392, Update Interval: 305.048370
+[2025.06.09-11.09.38:063][821]LogClass: Warning: Short type name "BP_Door_C_8" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.09.38:086][821]LogClass: Warning: Short type name "BP_Door_C_8" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.10.29:547][ 25]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.29:547][ 25]LogEditorTransaction: Undo Clicking on Elements
+[2025.06.09-11.10.30:263][ 27]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.30:263][ 27]LogEditorTransaction: Undo Move Elements
+[2025.06.09-11.10.30:736][ 28]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.30:736][ 28]LogEditorTransaction: Undo Move Elements
+[2025.06.09-11.10.31:202][ 29]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.31:202][ 29]LogEditorTransaction: Undo Clicking on Elements
+[2025.06.09-11.10.37:387][394]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.37:387][394]LogEditorTransaction: Undo Move Elements
+[2025.06.09-11.10.52:693][351]Cmd: TRANSACTION UNDO
+[2025.06.09-11.10.52:693][351]LogEditorTransaction: Undo Move Elements
+[2025.06.09-11.11.05:475][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2025.06.09-11.11.05:640][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.11.05:784][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.06.09-11.11.05:893][121]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.11.05:895][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso25A5105E2442D372D75777CB1CDE9D65C.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.11.05:924][121]LogFileHelpers: Saving map 'Piso2' took 0.220
+[2025.06.09-11.11.05:937][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 296.846 ms (total: 4.71 sec)
+[2025.06.09-11.11.06:005][121]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.11.06:005][121]LogContentValidation: Enabled validators:
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.11.06:005][121]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.11.06:005][121]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.11.07:297][200]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_C0323D2B.Box_C0323D2B
+[2025.06.09-11.11.07:299][200]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_C0323D2B.Box_C0323D2B as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_42
+[2025.06.09-11.11.07:300][200]LogStaticMesh: Display: Building static mesh Box_C0323D2B (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.11.07:301][200]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_C0323D2B.Box_C0323D2B
+[2025.06.09-11.11.08:087][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.11.08:133][200]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2025.06.09-11.11.08:136][200]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2025.06.09-11.11.17:847][787]LogStaticMesh: Display: Building static mesh Box_C0323D2B (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.11.17:849][787]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_C0323D2B.Box_C0323D2B
+[2025.06.09-11.11.24:275][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2025.06.09-11.11.24:566][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.11.24:696][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.06.09-11.11.24:805][146]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.11.24:807][146]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2593ECCE14F3A5275836A8D9332310E24.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.11.24:836][146]LogFileHelpers: Saving map 'Piso2' took 0.219
+[2025.06.09-11.11.24:837][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_C0323D2B] ([1] browsable assets)...
+[2025.06.09-11.11.24:882][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_C0323D2B.Box_C0323D2B]
+[2025.06.09-11.11.24:882][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_C0323D2B]
+[2025.06.09-11.11.24:890][146]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_C0323D2B
+[2025.06.09-11.11.24:890][146]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_C0323D2BACD206D9449684C269355693FEF929CD.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_C0323D2B.uasset'
+[2025.06.09-11.11.25:172][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 606.537 ms (total: 5.32 sec)
+[2025.06.09-11.11.25:230][146]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.09-11.11.25:230][146]LogContentValidation: Enabled validators:
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.11.25:230][146]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.11.25:230][146]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.11.25:230][146]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_C0323D2B Validating asset
+[2025.06.09-11.11.25:768][177]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.09-11.11.25:803][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.09-11.11.25:803][177]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.11.25:818][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015594s)
+[2025.06.09-11.11.25:818][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Piso2.Piso2 to /Game/Levels/UEDPIE_0_Piso2.Piso2 (0.015639s)
+[2025.06.09-11.11.25:858][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2025.06.09-11.11.25:863][177]LogChaosDD: Creating Chaos Debug Draw Scene for world Piso2
+[2025.06.09-11.11.25:866][177]LogPlayLevel: PIE: World Init took: (0.003046s)
+[2025.06.09-11.11.25:867][177]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.09-11.11.25:867][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.09-11.11.25:867][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.09-11.11.25:867][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.09-11.11.25:867][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.09-11.11.25:867][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.09-11.11.25:871][177]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.09-11.11.25:906][177]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (3- USB Audio Device)
+[2025.06.09-11.11.25:906][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.09-11.11.25:906][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.09-11.11.25:906][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.09-11.11.25:909][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.06.09-11.11.25:909][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2025.06.09-11.11.25:913][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.06.09-11.11.25:913][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.06.09-11.11.25:913][177]LogInit: FAudioDevice initialized with ID 6.
+[2025.06.09-11.11.25:913][177]LogAudio: Display: Audio Device (ID: 6) registered with world 'Piso2'.
+[2025.06.09-11.11.25:913][177]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.06.09-11.11.25:916][177]LogLoad: Game class is 'GM_Sandbox_C'
+[2025.06.09-11.11.25:923][177]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Piso2.Piso2 up for play (max tick rate 0) at 2025.06.09-13.11.25
+[2025.06.09-11.11.25:924][177]LogWorld: Bringing up level for play took: 0.007602
+[2025.06.09-11.11.25:927][177]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.06.09-11.11.25:935][177]PIE: Server logged in
+[2025.06.09-11.11.25:937][177]PIE: Play in editor total start time 0.151 seconds.
+[2025.06.09-11.11.39:570][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.11.39:570][971]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.11.39:570][971]LogWorld: UWorld::CleanupWorld for Piso2, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-11.11.39:572][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.11.39:579][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.09-11.11.39:594][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.11.39:630][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.11.39:632][971]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.06.09-11.11.39:632][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.06.09-11.11.39:642][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.06.09-11.11.39:656][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.06.09-11.11.39:832][972]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.06.09-11.11.53:763][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.06.09-11.11.53:995][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.11.54:146][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.06.09-11.11.54:251][705]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.11.54:252][705]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2831B6FAC4FD460E08C600AA5B959BDB5.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.11.54:283][705]LogFileHelpers: Saving map 'Piso2' took 0.222
+[2025.06.09-11.11.54:292][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 296.743 ms (total: 5.62 sec)
+[2025.06.09-11.11.54:357][705]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.11.54:357][705]LogContentValidation: Enabled validators:
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.11.54:357][705]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.11.54:358][705]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.12.02:050][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.06.09-11.12.02:386][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.12.02:523][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.06.09-11.12.02:629][279]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.12.02:631][279]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2627CFE604BDEFA334469F085441FA20C.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.12.02:658][279]LogFileHelpers: Saving map 'Piso2' took 0.220
+[2025.06.09-11.12.02:658][279]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Door/BP_Door] ([2] browsable assets)...
+[2025.06.09-11.12.02:668][279]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Door/BP_Door.BP_Door]
+[2025.06.09-11.12.02:668][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Door/BP_Door]
+[2025.06.09-11.12.02:685][279]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_Door
+[2025.06.09-11.12.02:686][279]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/BP_DoorDC3E248E4AAA5BD0B416CBB61F000D84.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Blueprints/Door/BP_Door.uasset'
+[2025.06.09-11.12.02:699][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 312.983 ms (total: 5.93 sec)
+[2025.06.09-11.12.02:753][279]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.09-11.12.02:753][279]LogContentValidation: Enabled validators:
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.12.02:753][279]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.12.02:753][279]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.12.02:753][279]AssetCheck: /Game/Blueprints/Door/BP_Door Validating asset
+[2025.06.09-11.12.06:300][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2025.06.09-11.12.10:685][773]LogClass: Warning: Short type name "BP_Door_C_9" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.12.10:703][773]LogClass: Warning: Short type name "BP_Door_C_9" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.12.48:149][ 41]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_4C86D496.Box_4C86D496
+[2025.06.09-11.12.48:149][ 41]LogStaticMesh: Display: Building static mesh Box_4C86D496 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.12.48:151][ 41]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_4C86D496.Box_4C86D496
+[2025.06.09-11.12.48:151][ 41]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_4C86D496.Box_4C86D496 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_46
+[2025.06.09-11.12.48:824][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.12.48:895][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2025.06.09-11.12.48:904][ 41]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2025.06.09-11.13.09:950][324]LogStaticMesh: Display: Building static mesh Box_4C86D496 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.13.09:951][324]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_4C86D496.Box_4C86D496
+[2025.06.09-11.13.35:230][977]LogClass: Warning: Short type name "BP_Door_C_4" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.13.35:245][977]LogClass: Warning: Short type name "BP_Door_C_4" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.13.41:081][301]Cmd: TRANSACTION UNDO
+[2025.06.09-11.13.41:081][301]LogEditorTransaction: Undo Rotate Elements
+[2025.06.09-11.14.28:966][245]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_EC367567.Box_EC367567
+[2025.06.09-11.14.28:966][245]LogStaticMesh: Display: Building static mesh Box_EC367567 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.14.28:967][245]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_EC367567.Box_EC367567
+[2025.06.09-11.14.28:967][245]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_EC367567.Box_EC367567 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_66
+[2025.06.09-11.14.29:231][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.14.29:302][245]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2025.06.09-11.14.29:311][245]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2025.06.09-11.14.36:057][680]LogStaticMesh: Display: Building static mesh Box_EC367567 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.14.36:057][680]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_EC367567.Box_EC367567
+[2025.06.09-11.14.44:438][213]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_483592E2.Box_483592E2
+[2025.06.09-11.14.44:439][213]LogStaticMesh: Display: Building static mesh Box_483592E2 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.14.44:440][213]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_483592E2.Box_483592E2
+[2025.06.09-11.14.44:440][213]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_483592E2.Box_483592E2 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_70
+[2025.06.09-11.14.45:208][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.14.45:253][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.06.09-11.14.45:262][213]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2025.06.09-11.14.47:561][337]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A.Box_B7A9F04A
+[2025.06.09-11.14.47:561][337]LogStaticMesh: Display: Building static mesh Box_B7A9F04A (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.14.47:563][337]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A.Box_B7A9F04A
+[2025.06.09-11.14.47:564][337]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A.Box_B7A9F04A as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_82
+[2025.06.09-11.14.48:346][337]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.14.48:393][337]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2025.06.09-11.14.48:400][337]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2025.06.09-11.14.55:285][756]LogStaticMesh: Display: Building static mesh Box_B7A9F04A (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.14.55:287][756]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A.Box_B7A9F04A
+[2025.06.09-11.14.59:794][  2]LogClass: Warning: Short type name "BP_Door_C_11" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.14.59:810][  2]LogClass: Warning: Short type name "BP_Door_C_11" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+0x00007ffe8981076d UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae04e2 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae1de6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe897ed516 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89ae4fc0 UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe89a8966c UnrealEditor-CoreUObject.dll!UnknownFunction []
+0x00007ffe12a57d0b UnrealEditor-UnrealEd.dll!UnknownFunction []
+0x00007ffe12a552fc UnrealEditor-UnrealEd.dll!UnknownFunction []
+
+[2025.06.09-11.15.32:662][ 61]LogStaticMesh: Display: Building static mesh Box_973A7701 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.15.32:663][ 61]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_973A7701.Box_973A7701
+[2025.06.09-11.15.33:195][ 80]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2128.195312
+[2025.06.09-11.15.33:382][ 93]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.09-11.15.33:382][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2128.368896, Update Interval: 322.055725
+[2025.06.09-11.15.33:863][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.06.09-11.15.34:165][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.15.34:314][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.06.09-11.15.34:444][121]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.15.34:447][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2DA8BE02F40B71065114550B5699DA590.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.15.34:476][121]LogFileHelpers: Saving map 'Piso2' took 0.248
+[2025.06.09-11.15.34:477][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_973A7701] ([1] browsable assets)...
+[2025.06.09-11.15.34:520][121]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_973A7701.Box_973A7701]
+[2025.06.09-11.15.34:520][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_973A7701]
+[2025.06.09-11.15.34:528][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_973A7701
+[2025.06.09-11.15.34:529][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_973A7701BBB31D45455C2D1BFF25B0A536BC9738.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_973A7701.uasset'
+[2025.06.09-11.15.34:532][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_4C86D496] ([1] browsable assets)...
+[2025.06.09-11.15.34:540][121]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_4C86D496.Box_4C86D496]
+[2025.06.09-11.15.34:540][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_4C86D496]
+[2025.06.09-11.15.34:547][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_4C86D496
+[2025.06.09-11.15.34:547][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_4C86D496D28B449D4AAC073E9CFA0A8BDF340068.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_4C86D496.uasset'
+[2025.06.09-11.15.34:552][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_EC367567] ([1] browsable assets)...
+[2025.06.09-11.15.34:561][121]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_EC367567.Box_EC367567]
+[2025.06.09-11.15.34:561][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_EC367567]
+[2025.06.09-11.15.34:568][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_EC367567
+[2025.06.09-11.15.34:568][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_EC367567D035CF26423166E9F110EF9368BE8C50.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_EC367567.uasset'
+[2025.06.09-11.15.34:572][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_483592E2] ([1] browsable assets)...
+[2025.06.09-11.15.34:580][121]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_483592E2.Box_483592E2]
+[2025.06.09-11.15.34:580][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_483592E2]
+[2025.06.09-11.15.34:585][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_483592E2
+[2025.06.09-11.15.34:585][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_483592E221D58AA2405AC7510765A99C017421F8.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_483592E2.uasset'
+[2025.06.09-11.15.34:589][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_B7A9F04A] ([1] browsable assets)...
+[2025.06.09-11.15.34:597][121]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A.Box_B7A9F04A]
+[2025.06.09-11.15.34:597][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_B7A9F04A]
+[2025.06.09-11.15.34:604][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A
+[2025.06.09-11.15.34:604][121]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_B7A9F04A87FD76F84A4B17FFDA6890B0B0C1837C.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_B7A9F04A.uasset'
+[2025.06.09-11.15.34:894][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 728.427 ms (total: 6.66 sec)
+[2025.06.09-11.15.34:975][121]LogContentValidation: Display: Starting to validate 6 assets
+[2025.06.09-11.15.34:975][121]LogContentValidation: Enabled validators:
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.15.34:975][121]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_973A7701 Validating asset
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_4C86D496 Validating asset
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_EC367567 Validating asset
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_483592E2 Validating asset
+[2025.06.09-11.15.34:975][121]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_B7A9F04A Validating asset
+[2025.06.09-11.16.20:062][894]LogStaticMesh: Display: Building static mesh Box_0EEE40B4 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.16.20:063][894]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_0EEE40B4.Box_0EEE40B4
+[2025.06.09-11.16.31:054][555]LogStaticMesh: Display: Building static mesh Box_58A5A55B (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.16.31:056][555]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_58A5A55B.Box_58A5A55B
+[2025.06.09-11.16.36:268][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2025.06.09-11.16.36:548][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.16.36:689][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.06.09-11.16.36:794][870]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.16.36:796][870]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2A3D0C7064CE8F19E7740BCA084A49595.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.16.36:824][870]LogFileHelpers: Saving map 'Piso2' took 0.217
+[2025.06.09-11.16.36:824][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_0EEE40B4] ([1] browsable assets)...
+[2025.06.09-11.16.36:869][870]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_0EEE40B4.Box_0EEE40B4]
+[2025.06.09-11.16.36:869][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_0EEE40B4]
+[2025.06.09-11.16.36:876][870]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_0EEE40B4
+[2025.06.09-11.16.36:877][870]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_0EEE40B400876DDE4E2FFBC85B635CA1B69371FD.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_0EEE40B4.uasset'
+[2025.06.09-11.16.36:880][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_58A5A55B] ([1] browsable assets)...
+[2025.06.09-11.16.36:888][870]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_58A5A55B.Box_58A5A55B]
+[2025.06.09-11.16.36:888][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_58A5A55B]
+[2025.06.09-11.16.36:894][870]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_58A5A55B
+[2025.06.09-11.16.36:895][870]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_58A5A55B80544BB54884CFB68334CCB97C9EF07B.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_58A5A55B.uasset'
+[2025.06.09-11.16.36:915][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 366.576 ms (total: 7.02 sec)
+[2025.06.09-11.16.36:986][870]LogContentValidation: Display: Starting to validate 3 assets
+[2025.06.09-11.16.36:986][870]LogContentValidation: Enabled validators:
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.16.36:986][870]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.16.36:986][870]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.16.36:987][870]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_0EEE40B4 Validating asset
+[2025.06.09-11.16.36:987][870]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_58A5A55B Validating asset
+[2025.06.09-11.16.44:868][347]LogStaticMesh: Display: Building static mesh Box_58A5A55B (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.16.44:869][347]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_58A5A55B.Box_58A5A55B
+[2025.06.09-11.16.47:177][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.06.09-11.16.47:453][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.16.47:598][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.06.09-11.16.47:708][473]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.16.47:709][473]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2D006DFEB457197C682332BA417519CD0.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.16.47:738][473]LogFileHelpers: Saving map 'Piso2' took 0.220
+[2025.06.09-11.16.47:738][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_58A5A55B] ([1] browsable assets)...
+[2025.06.09-11.16.47:785][473]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_58A5A55B.Box_58A5A55B]
+[2025.06.09-11.16.47:785][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_58A5A55B]
+[2025.06.09-11.16.47:793][473]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_58A5A55B
+[2025.06.09-11.16.47:795][473]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_58A5A55B5DA125644F5A73A4074605BE6ADD89B8.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_58A5A55B.uasset'
+[2025.06.09-11.16.47:810][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 357.272 ms (total: 7.38 sec)
+[2025.06.09-11.16.47:873][473]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.09-11.16.47:873][473]LogContentValidation: Enabled validators:
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.16.47:873][473]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.16.47:873][473]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.16.47:874][473]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_58A5A55B Validating asset
+[2025.06.09-11.16.56:532][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.09-11.16.56:570][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.09-11.16.56:570][971]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.16.56:589][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018216s)
+[2025.06.09-11.16.56:589][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Piso2.Piso2 to /Game/Levels/UEDPIE_0_Piso2.Piso2 (0.018269s)
+[2025.06.09-11.16.56:627][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2025.06.09-11.16.56:630][971]LogChaosDD: Creating Chaos Debug Draw Scene for world Piso2
+[2025.06.09-11.16.56:632][971]LogPlayLevel: PIE: World Init took: (0.002762s)
+[2025.06.09-11.16.56:633][971]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.09-11.16.56:633][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.09-11.16.56:633][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.09-11.16.56:633][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.09-11.16.56:633][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.09-11.16.56:633][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.09-11.16.56:637][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.09-11.16.56:672][971]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (3- USB Audio Device)
+[2025.06.09-11.16.56:672][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.09-11.16.56:672][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.09-11.16.56:672][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.09-11.16.56:677][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.06.09-11.16.56:677][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2025.06.09-11.16.56:679][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.06.09-11.16.56:679][971]LogInit: FAudioDevice initialized with ID 7.
+[2025.06.09-11.16.56:679][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.06.09-11.16.56:679][971]LogAudio: Display: Audio Device (ID: 7) registered with world 'Piso2'.
+[2025.06.09-11.16.56:679][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.06.09-11.16.56:682][971]LogLoad: Game class is 'GM_Sandbox_C'
+[2025.06.09-11.16.56:692][971]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Piso2.Piso2 up for play (max tick rate 0) at 2025.06.09-13.16.56
+[2025.06.09-11.16.56:692][971]LogWorld: Bringing up level for play took: 0.008961
+[2025.06.09-11.16.56:696][971]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.06.09-11.16.56:703][971]PIE: Server logged in
+[2025.06.09-11.16.56:704][971]PIE: Play in editor total start time 0.155 seconds.
+[2025.06.09-11.16.57:916][  5]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.06.09-11.16.58:712][ 43]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.06.09-11.17.13:579][960]LogCharacterMovement: CBP_SandboxCharacter_C_0 is stuck and failed to move! Velocity: X=274.04 Y=-144.96 Z=0.00 Location: X=-164.75 Y=5682.26 Z=469.15 Normal: X=0.81 Y=0.59 Z=0.00 PenetrationDepth:10.125 Actor:BP_Door_C_12 Component:SM_Door BoneName:None (0 other events since notify)
+[2025.06.09-11.17.54:976][625]LogCharacterMovement: CBP_SandboxCharacter_C_0 is stuck and failed to move! Velocity: X=-355.13 Y=45.08 Z=0.00 Location: X=1894.77 Y=3804.54 Z=485.15 Normal: X=0.70 Y=-0.71 Z=0.00 PenetrationDepth:3.555 Actor:BP_Door_C_7 Component:SM_Door BoneName:None (10 other events since notify)
+[2025.06.09-11.18.17:129][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.18.17:129][ 78]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.18.17:129][ 78]LogWorld: UWorld::CleanupWorld for Piso2, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-11.18.17:131][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.18.17:136][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.09-11.18.17:149][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.18.17:185][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.18.17:186][ 78]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.06.09-11.18.17:186][ 78]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.06.09-11.18.17:189][ 78]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.06.09-11.18.17:205][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.06.09-11.18.17:428][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.06.09-11.18.59:052][526]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.09-11.18.59:105][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.09-11.18.59:138][526]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.18.59:152][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014573s)
+[2025.06.09-11.18.59:152][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Piso2.Piso2 to /Game/Levels/UEDPIE_0_Piso2.Piso2 (0.014631s)
+[2025.06.09-11.18.59:188][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.06.09-11.18.59:195][526]LogChaosDD: Creating Chaos Debug Draw Scene for world Piso2
+[2025.06.09-11.18.59:198][526]LogPlayLevel: PIE: World Init took: (0.002379s)
+[2025.06.09-11.18.59:199][526]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.09-11.18.59:199][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.09-11.18.59:199][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.09-11.18.59:199][526]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.09-11.18.59:199][526]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.09-11.18.59:199][526]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.09-11.18.59:202][526]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.09-11.18.59:233][526]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (3- USB Audio Device)
+[2025.06.09-11.18.59:233][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.09-11.18.59:233][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.09-11.18.59:233][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.09-11.18.59:235][526]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.06.09-11.18.59:235][526]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2025.06.09-11.18.59:236][526]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.06.09-11.18.59:236][526]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.06.09-11.18.59:236][526]LogInit: FAudioDevice initialized with ID 8.
+[2025.06.09-11.18.59:236][526]LogAudio: Display: Audio Device (ID: 8) registered with world 'Piso2'.
+[2025.06.09-11.18.59:236][526]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.06.09-11.18.59:241][526]LogLoad: Game class is 'GM_Sandbox_C'
+[2025.06.09-11.18.59:249][526]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Piso2.Piso2 up for play (max tick rate 0) at 2025.06.09-13.18.59
+[2025.06.09-11.18.59:251][526]LogWorld: Bringing up level for play took: 0.009590
+[2025.06.09-11.18.59:254][526]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.06.09-11.18.59:260][526]PIE: Server logged in
+[2025.06.09-11.18.59:262][526]PIE: Play in editor total start time 0.185 seconds.
+[2025.06.09-11.19.00:831][580]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.06.09-11.19.02:473][678]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.06.09-11.19.08:019][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.19.08:019][ 16]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Piso2
+[2025.06.09-11.19.08:019][ 16]LogWorld: UWorld::CleanupWorld for Piso2, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-11.19.08:022][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.19.08:027][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.09-11.19.08:038][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-11.19.08:075][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-11.19.08:076][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.06.09-11.19.08:076][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.06.09-11.19.08:079][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.06.09-11.19.08:093][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.06.09-11.19.08:249][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.06.09-11.19.12:565][201]Cmd: DELETE
+[2025.06.09-11.19.12:565][201]Cmd: ACTOR DELETE
+[2025.06.09-11.19.12:571][201]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.19.12:616][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.06.09-11.19.12:622][201]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2025.06.09-11.19.14:495][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.06.09-11.19.14:687][294]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.19.14:832][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.06.09-11.19.14:939][294]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.19.14:941][294]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso235DD39B149759FBFB710E0B1AF5E8A0B.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.19.14:971][294]LogFileHelpers: Saving map 'Piso2' took 0.220
+[2025.06.09-11.19.14:984][294]LogFileHelpers: InternalPromptForCheckoutAndSave took 297.456 ms (total: 7.68 sec)
+[2025.06.09-11.19.15:051][294]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.19.15:051][294]LogContentValidation: Enabled validators:
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.19.15:051][294]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.19.15:051][294]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.19.39:680][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.09-11.19.39:841][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.19.39:988][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.06.09-11.19.40:100][585]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.19.40:101][585]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso20E2D8C3C4BC8A1398C5DB39CF754B6BD.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.19.40:133][585]LogFileHelpers: Saving map 'Piso2' took 0.226
+[2025.06.09-11.19.40:145][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 303.653 ms (total: 7.98 sec)
+[2025.06.09-11.19.40:205][585]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.19.40:205][585]LogContentValidation: Enabled validators:
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.19.40:205][585]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.19.40:205][585]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.20.32:077][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2025.06.09-11.20.32:253][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.20.32:400][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.06.09-11.20.32:508][287]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.20.32:510][287]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso24F9697544C9359BBFD6A8ABCE177C0EC.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.20.32:538][287]LogFileHelpers: Saving map 'Piso2' took 0.218
+[2025.06.09-11.20.32:551][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 297.435 ms (total: 8.28 sec)
+[2025.06.09-11.20.32:617][287]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.20.32:617][287]LogContentValidation: Enabled validators:
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.20.32:617][287]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.20.32:617][287]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.20.45:590][121]Cmd: TRANSACTION UNDO
+[2025.06.09-11.20.45:590][121]LogEditorTransaction: Undo Move Elements
+[2025.06.09-11.20.55:557][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2025.06.09-11.20.55:745][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.20.55:896][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.06.09-11.20.56:018][727]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.20.56:020][727]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso26B6B347140D01891DE637D94022E2148.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.20.56:051][727]LogFileHelpers: Saving map 'Piso2' took 0.244
+[2025.06.09-11.20.56:063][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 317.128 ms (total: 8.60 sec)
+[2025.06.09-11.20.56:149][727]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.20.56:149][727]LogContentValidation: Enabled validators:
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.20.56:149][727]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.20.56:150][727]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.21.05:535][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.09-11.21.05:700][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.21.05:834][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.06.09-11.21.05:945][313]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.21.05:946][313]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso295A95E4A40E9A88AA0D5EBB638592ED0.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.21.05:975][313]LogFileHelpers: Saving map 'Piso2' took 0.222
+[2025.06.09-11.21.05:982][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 281.774 ms (total: 8.88 sec)
+[2025.06.09-11.21.06:037][313]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.21.06:037][313]LogContentValidation: Enabled validators:
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.21.06:037][313]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.21.06:037][313]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.21.44:536][576]Cmd: POLY SELECT ALL
+[2025.06.09-11.21.45:537][642]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2025.06.09-11.21.45:711][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.21.45:826][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.06.09-11.21.45:931][642]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.21.45:933][642]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso26255387D4487B8A8A04F2D8CD9F18E70.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.21.45:962][642]LogFileHelpers: Saving map 'Piso2' took 0.217
+[2025.06.09-11.21.45:970][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 258.448 ms (total: 9.14 sec)
+[2025.06.09-11.21.46:036][642]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.21.46:036][642]LogContentValidation: Enabled validators:
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.21.46:036][642]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.21.46:036][642]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.21.46:368][661]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2501.355957
+[2025.06.09-11.21.46:540][674]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.09-11.21.46:540][674]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2501.512695, Update Interval: 331.643433
+[2025.06.09-11.22.07:392][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2025.06.09-11.22.07:552][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.22.07:686][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.06.09-11.22.07:797][959]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.22.07:799][959]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2FF73F95D4E2844682AC92F93B17AD3FA.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.22.07:829][959]LogFileHelpers: Saving map 'Piso2' took 0.224
+[2025.06.09-11.22.07:838][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 285.572 ms (total: 9.42 sec)
+[2025.06.09-11.22.07:905][959]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.22.07:905][959]LogContentValidation: Enabled validators:
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.22.07:905][959]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.22.07:905][959]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.22.38:945][914]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_5DB4A446.Box_5DB4A446
+[2025.06.09-11.22.38:947][914]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_5DB4A446.Box_5DB4A446 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_160
+[2025.06.09-11.22.38:950][914]LogStaticMesh: Display: Building static mesh Box_5DB4A446 (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.22.38:951][914]LogStaticMesh: Built static mesh [0.01s] /Game/Levels/_GENERATED/Usuario/Box_5DB4A446.Box_5DB4A446
+[2025.06.09-11.22.39:653][914]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.22.39:699][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2025.06.09-11.22.39:705][914]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2025.06.09-11.23.01:577][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2025.06.09-11.23.01:828][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.23.01:970][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.09-11.23.02:083][901]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.23.02:087][901]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2A80349ED4388FD6369F6AFA8C7A7CF2E.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.23.02:115][901]LogFileHelpers: Saving map 'Piso2' took 0.227
+[2025.06.09-11.23.02:115][901]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_5DB4A446] ([1] browsable assets)...
+[2025.06.09-11.23.02:165][901]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_5DB4A446.Box_5DB4A446]
+[2025.06.09-11.23.02:165][901]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_5DB4A446]
+[2025.06.09-11.23.02:172][901]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_5DB4A446
+[2025.06.09-11.23.02:172][901]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_5DB4A44668950087429DD8D2FBBE919E162A86D3.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_5DB4A446.uasset'
+[2025.06.09-11.23.02:453][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 624.870 ms (total: 10.0 sec)
+[2025.06.09-11.23.02:516][901]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.09-11.23.02:516][901]LogContentValidation: Enabled validators:
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.23.02:516][901]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.23.02:516][901]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.23.02:516][901]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_5DB4A446 Validating asset
+[2025.06.09-11.23.32:948][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.09-11.23.47:209][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2025.06.09-11.23.47:390][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.23.47:525][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.06.09-11.23.47:636][752]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.23.47:638][752]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso220D85C064EC6745B22DD728391B4C111.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.23.47:666][752]LogFileHelpers: Saving map 'Piso2' took 0.221
+[2025.06.09-11.23.47:676][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 285.567 ms (total: 10.3 sec)
+[2025.06.09-11.23.47:743][752]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.23.47:743][752]LogContentValidation: Enabled validators:
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.23.47:743][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.23.47:743][752]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.24.09:774][ 49]Cmd: TRANSACTION UNDO
+[2025.06.09-11.24.09:774][ 49]LogEditorTransaction: Undo Transform
+[2025.06.09-11.24.16:699][386]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Cone_57D153C5.Cone_57D153C5
+[2025.06.09-11.24.16:701][386]LogStaticMesh: Display: Building static mesh Cone_57D153C5 (Required Memory Estimate: 0.109482 MB)...
+[2025.06.09-11.24.16:701][386]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Cone_57D153C5.Cone_57D153C5 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_162
+[2025.06.09-11.24.16:702][386]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Cone_57D153C5.Cone_57D153C5
+[2025.06.09-11.24.44:233][ 10]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE.Combined_37EF07DE
+[2025.06.09-11.24.44:234][ 10]LogStaticMesh: Display: Building static mesh Combined_37EF07DE (Required Memory Estimate: 0.312317 MB)...
+[2025.06.09-11.24.44:235][ 10]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE.Combined_37EF07DE
+[2025.06.09-11.24.44:235][ 10]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE.Combined_37EF07DE as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_165
+[2025.06.09-11.24.44:554][ 10]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.24.44:601][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2025.06.09-11.24.44:606][ 10]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2025.06.09-11.24.44:616][ 10]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.24.44:666][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2025.06.09-11.24.44:668][ 10]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2025.06.09-11.24.44:675][ 10]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.06.09-11.24.44:716][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.06.09-11.24.44:718][ 10]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2025.06.09-11.24.56:974][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.24.56:974][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.24.56:974][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.24.56:974][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.24.59:142][859]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-11.25.24:870][444]LogStaticMesh: Display: Building static mesh Combined_37EF07DE (Required Memory Estimate: 0.312317 MB)...
+[2025.06.09-11.25.24:872][444]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE.Combined_37EF07DE
+[2025.06.09-11.25.45:815][782]Cmd: EDIT COPY
+[2025.06.09-11.25.52:341][193]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Box_1072D05A.Box_1072D05A
+[2025.06.09-11.25.52:341][193]LogStaticMesh: Display: Building static mesh Box_1072D05A (Required Memory Estimate: 0.027864 MB)...
+[2025.06.09-11.25.52:342][193]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Box_1072D05A.Box_1072D05A
+[2025.06.09-11.25.52:344][193]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Box_1072D05A.Box_1072D05A as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_166
+[2025.06.09-11.25.55:939][385]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.25.55:939][385]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.25.55:939][385]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.25.55:939][385]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.26.16:909][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.06.09-11.26.17:173][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.26.17:314][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.06.09-11.26.17:429][689]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.26.17:430][689]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso2AA0434304FDB33A3ACBBE0A5D8C612E9.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.26.17:462][689]LogFileHelpers: Saving map 'Piso2' took 0.231
+[2025.06.09-11.26.17:462][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Cone_57D153C5] ([1] browsable assets)...
+[2025.06.09-11.26.17:513][689]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Cone_57D153C5.Cone_57D153C5]
+[2025.06.09-11.26.17:514][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Cone_57D153C5]
+[2025.06.09-11.26.17:521][689]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Cone_57D153C5
+[2025.06.09-11.26.17:521][689]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Cone_57D153C51CA37AED4EF8EC9D3185B5AE615FCC94.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Cone_57D153C5.uasset'
+[2025.06.09-11.26.17:524][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Combined_37EF07DE] ([1] browsable assets)...
+[2025.06.09-11.26.17:532][689]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE.Combined_37EF07DE]
+[2025.06.09-11.26.17:532][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Combined_37EF07DE]
+[2025.06.09-11.26.17:540][689]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE
+[2025.06.09-11.26.17:540][689]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Combined_37EF07DE597EE26542B610438B34D783C0302B76.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Combined_37EF07DE.uasset'
+[2025.06.09-11.26.17:544][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Box_1072D05A] ([1] browsable assets)...
+[2025.06.09-11.26.17:552][689]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Box_1072D05A.Box_1072D05A]
+[2025.06.09-11.26.17:552][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Box_1072D05A]
+[2025.06.09-11.26.17:558][689]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Box_1072D05A
+[2025.06.09-11.26.17:558][689]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Box_1072D05AFFF3DD56423BD9BE4468A2BFD61C4F71.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Box_1072D05A.uasset'
+[2025.06.09-11.26.17:829][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 657.462 ms (total: 10.9 sec)
+[2025.06.09-11.26.17:893][689]LogContentValidation: Display: Starting to validate 4 assets
+[2025.06.09-11.26.17:893][689]LogContentValidation: Enabled validators:
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.26.17:893][689]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.26.17:894][689]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.26.17:894][689]AssetCheck: /Game/Levels/_GENERATED/Usuario/Cone_57D153C5 Validating asset
+[2025.06.09-11.26.17:894][689]AssetCheck: /Game/Levels/_GENERATED/Usuario/Combined_37EF07DE Validating asset
+[2025.06.09-11.26.17:894][689]AssetCheck: /Game/Levels/_GENERATED/Usuario/Box_1072D05A Validating asset
+[2025.06.09-11.26.28:151][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894.Cylinder_5A0D1894
+[2025.06.09-11.26.28:151][313]LogStaticMesh: Display: Building static mesh Cylinder_5A0D1894 (Required Memory Estimate: 0.109482 MB)...
+[2025.06.09-11.26.28:152][313]LogStaticMesh: Built static mesh [0.00s] /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894.Cylinder_5A0D1894
+[2025.06.09-11.26.28:153][313]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894.Cylinder_5A0D1894 as actor: StaticMeshActor /Game/Levels/Piso2.Piso2:PersistentLevel.StaticMeshActor_167
+[2025.06.09-11.26.32:594][573]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EngineMaterials' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.26.32:594][573]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.26.32:594][573]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/BufferVisualization' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.26.32:594][573]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial.uasset' is outside repository at 'C:/Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice'
+[2025.06.09-11.26.59:696][205]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.06.09-11.26.59:955][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.27.00:102][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.06.09-11.27.00:220][205]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.27.00:222][205]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso29F790BA547AC3C6A24A70AB9BC84DADB.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.27.00:250][205]LogFileHelpers: Saving map 'Piso2' took 0.230
+[2025.06.09-11.27.00:251][205]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894] ([1] browsable assets)...
+[2025.06.09-11.27.00:302][205]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894.Cylinder_5A0D1894]
+[2025.06.09-11.27.00:302][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894]
+[2025.06.09-11.27.00:309][205]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894
+[2025.06.09-11.27.00:309][205]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Cylinder_5A0D1894367841BD4F2419EDF62A3A9433C016ED.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/_GENERATED/Usuario/Cylinder_5A0D1894.uasset'
+[2025.06.09-11.27.00:591][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 635.528 ms (total: 11.6 sec)
+[2025.06.09-11.27.00:649][205]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.09-11.27.00:649][205]LogContentValidation: Enabled validators:
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.27.00:649][205]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.27.00:650][205]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.27.00:650][205]AssetCheck: /Game/Levels/_GENERATED/Usuario/Cylinder_5A0D1894 Validating asset
+[2025.06.09-11.27.27:500][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.06.09-11.27.27:673][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.27.27:808][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.06.09-11.27.27:921][815]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.27.27:922][815]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso26B1AFDE34E90490C67C791B88903E9D1.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.27.27:953][815]LogFileHelpers: Saving map 'Piso2' took 0.226
+[2025.06.09-11.27.27:963][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 289.150 ms (total: 11.9 sec)
+[2025.06.09-11.27.28:025][815]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.27.28:025][815]LogContentValidation: Enabled validators:
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.27.28:025][815]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.27.28:025][815]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.27.45:835][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.06.09-11.27.45:991][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-11.27.46:143][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.06.09-11.27.46:267][ 21]LogSavePackage: Moving output files for package: /Game/Levels/Piso2
+[2025.06.09-11.27.46:268][ 21]LogSavePackage: Moving '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Saved/Piso26561F676421290572FEB19B61FB6A1FF.tmp' to '../../../../../../Users/Usuario/Documents/CITM/Projects/Uni/LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso2.umap'
+[2025.06.09-11.27.46:299][ 21]LogFileHelpers: Saving map 'Piso2' took 0.241
+[2025.06.09-11.27.46:308][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 316.423 ms (total: 12.2 sec)
+[2025.06.09-11.27.46:373][ 21]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-11.27.46:373][ 21]LogContentValidation: Enabled validators:
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-11.27.46:374][ 21]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-11.27.46:374][ 21]AssetCheck: /Game/Levels/Piso2 Validating asset
+[2025.06.09-11.28.13:000][193]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2887.968750
+[2025.06.09-11.28.14:000][196]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.09-11.28.14:000][196]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2888.636230, Update Interval: 352.891632
