@@ -4936,3 +4936,36 @@ Warning: Virtual Textures are disabled in this project.
 [2025.06.09-15.34.27:606][ 54]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.06.09-15.34.27:606][ 54]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.06.09-15.34.27:606][ 54]AssetCheck: /Game/Levels/Piso0 Validating asset
+[2025.06.09-15.36.44:861][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-15.36.44:925][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Piso0" FILE="../../../../../../LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.09-15.36.44:975][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.06.09-15.36.45:005][ 16]LogSavePackage: Moving output files for package: /Game/Levels/Piso0
+[2025.06.09-15.36.45:007][ 16]LogSavePackage: Moving '../../../../../../LevelDesign_FinalPractice/FinalPractice/Saved/Piso08FD28AFB478845B36AC0C9A276D6E48B.tmp' to '../../../../../../LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso0.umap'
+[2025.06.09-15.36.45:019][ 16]LogFileHelpers: Saving map 'Piso0' took 0.094
+[2025.06.09-15.36.45:031][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.499 ms (total: 10.9 sec)
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: Enabled validators:
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-15.36.45:075][ 16]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-15.36.45:075][ 16]AssetCheck: /Game/Levels/Piso0 Validating asset
+[2025.06.09-15.37.51:599][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.09-15.37.51:665][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Piso0" FILE="../../../../../../LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.09-15.37.51:711][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.06.09-15.37.51:739][675]LogSavePackage: Moving output files for package: /Game/Levels/Piso0
+[2025.06.09-15.37.51:740][675]LogSavePackage: Moving '../../../../../../LevelDesign_FinalPractice/FinalPractice/Saved/Piso018FCD06B4338CF772A2157AF8674305A.tmp' to '../../../../../../LevelDesign_FinalPractice/FinalPractice/Content/Levels/Piso0.umap'
+[2025.06.09-15.37.51:753][675]LogFileHelpers: Saving map 'Piso0' took 0.088
+[2025.06.09-15.37.51:765][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.269 ms (total: 11.1 sec)
+[2025.06.09-15.37.51:826][675]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.09-15.37.51:826][675]LogContentValidation: Enabled validators:
+[2025.06.09-15.37.51:826][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.09-15.37.51:827][675]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.09-15.37.51:827][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.09-15.37.51:827][675]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.09-15.37.51:827][675]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.09-15.37.51:827][675]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.09-15.37.51:827][675]AssetCheck: /Game/Levels/Piso0 Validating asset
+[2025.06.09-15.37.56:165][749]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
